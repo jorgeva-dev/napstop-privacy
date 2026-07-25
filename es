@@ -327,13 +327,13 @@
       <div class="board-head"><span>Dato</span><span class="stamp">Estado</span></div>
       <div class="board-row"><span class="what">Ubicación</span><span class="stamp on">Solo en tu dispositivo</span></div>
       <div class="board-row"><span class="what">Alarmas guardadas</span><span class="stamp on">Solo en tu dispositivo</span></div>
-      <div class="board-row"><span class="what">Identificadores</span><span class="stamp">No se recogen</span></div>
+      <div class="board-row"><span class="what">Identificador de publicidad</span><span class="stamp on">Usado por Google AdMob, con tu consentimiento</span></div>
       <div class="board-row"><span class="what">Contactos, cámara, archivos</span><span class="stamp">Sin acceso</span></div>
       <div class="board-row"><span class="what">Analítica</span><span class="stamp">No existe</span></div>
-      <div class="board-row"><span class="what">Publicidad y seguimiento</span><span class="stamp">No existe</span></div>
+      <div class="board-row"><span class="what">Publicidad</span><span class="stamp on">Google AdMob, solo en ajustes</span></div>
       <div class="board-row"><span class="what">Cuentas o registro</span><span class="stamp">No se piden</span></div>
     </div>
-    <p class="board-note">Ningún dato de esta tabla se transmite fuera del teléfono, se comparte con terceros ni se vende.</p>
+    <p class="board-note">Salvo la publicidad de Google AdMob, descrita más abajo, ningún dato de esta tabla se transmite fuera del teléfono, se comparte con terceros ni se vende.</p>
   </section>
 
   <section class="policy wrap">
@@ -349,7 +349,7 @@
       <li><strong>Notificaciones</strong> <code class="perm">POST_NOTIFICATIONS</code> — para mostrar la alarma y la notificación del servicio activo.</li>
     </ul>
     <p>Además, la aplicación guarda las alarmas que tú creas: una etiqueta, unas coordenadas, un radio y el medio de transporte elegido.</p>
-    <p>NapStop <strong>no</strong> accede a tus contactos, cámara, micrófono, archivos, calendario, historial de llamadas ni identificadores publicitarios.</p>
+    <p>NapStop <strong>no</strong> accede a tus contactos, cámara, micrófono, archivos, calendario ni historial de llamadas. El único identificador que puede compartirse con un tercero es el identificador de publicidad, usado por Google AdMob y descrito en la sección «Publicidad» más abajo.</p>
 
     <h2>Por qué necesita la ubicación en segundo plano</h2>
     <p>La función principal de NapStop es sonar en el momento exacto en que llegas a un punto que tú has marcado, normalmente mientras duermes en un tren o un autobús. Sin acceso a la ubicación en segundo plano, la aplicación no puede cumplir esa función y deja de tener sentido.</p>
@@ -363,12 +363,19 @@
     <p>Las alarmas que creas se almacenan en una base de datos local dentro de la aplicación, en tu dispositivo.</p>
 
     <h2>Servicios de terceros</h2>
-    <p>NapStop se apoya en dos componentes de Google que forman parte del ecosistema Android:</p>
+    <p>NapStop se apoya en varios componentes de Google que forman parte del ecosistema Android:</p>
     <ul>
       <li><strong>Google Play Services (Geofencing y ubicación)</strong> — detecta la llegada a la zona de alarma.</li>
       <li><strong>Google Maps SDK for Android</strong> — muestra el mapa donde eliges el punto.</li>
+      <li><strong>Google AdMob</strong> — muestra el banner publicitario en las pantallas de configuración; puede usar tu identificador de publicidad si das tu consentimiento. Ver la sección «Publicidad» más abajo.</li>
     </ul>
     <p>Estos componentes son de Google y su tratamiento de datos se rige por la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a>, ajena a esta aplicación. NapStop no envía a Google ninguna información adicional sobre ti más allá de lo que estos componentes requieren para funcionar.</p>
+
+    <h2>Publicidad</h2>
+    <p>NapStop muestra un banner publicitario de <strong>Google AdMob</strong> únicamente en las pantallas de configuración: crear o editar una alarma, la lista de alarmas guardadas y los ajustes. La pantalla de alarma activa mientras duermes, la pantalla de alarma sonando y su botón de detener están siempre libres de publicidad.</p>
+    <p>Para mostrar anuncios, Google AdMob puede usar tu <strong>identificador de publicidad</strong> y datos técnicos del dispositivo (modelo, versión de Android, dirección IP aproximada). Si te encuentras en el Espacio Económico Europeo, Reino Unido o Suiza, NapStop pedirá tu consentimiento mediante el formulario de la User Messaging Platform (UMP) de Google antes de cargar el primer anuncio; podrás elegir entre anuncios personalizados o no personalizados, o rechazarlos.</p>
+    <p>Puedes revisar tu elección de consentimiento en cualquier momento desde los ajustes de la aplicación, y gestionar tus preferencias de anuncios personalizados con Google desde <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a>.</p>
+    <p>NapStop ofrece además una compra única, <strong>NapStop Pro</strong>, que desactiva la publicidad de forma permanente en toda la aplicación.</p>
 
     <h2>Conservación y eliminación de datos</h2>
     <p>Como no se recoge nada fuera de tu dispositivo, no hay datos que conservar en ningún otro sitio. Puedes eliminar la información local en cualquier momento:</p>
@@ -391,7 +398,7 @@
     <h2>Contacto</h2>
     <p>Para cualquier duda sobre esta política de privacidad: <span class="fill">[TU CORREO]</span></p>
 
-    <p class="updated">Última actualización: 20 de julio de 2026</p>
+    <p class="updated">Última actualización: 25 de julio de 2026</p>
   </section>
 </article>
 
@@ -406,13 +413,13 @@
       <div class="board-head"><span>Data</span><span class="stamp">Status</span></div>
       <div class="board-row"><span class="what">Location</span><span class="stamp on">Stays on your device</span></div>
       <div class="board-row"><span class="what">Saved alarms</span><span class="stamp on">Stays on your device</span></div>
-      <div class="board-row"><span class="what">Identifiers</span><span class="stamp">Not collected</span></div>
+      <div class="board-row"><span class="what">Advertising identifier</span><span class="stamp on">Used by Google AdMob, with your consent</span></div>
       <div class="board-row"><span class="what">Contacts, camera, files</span><span class="stamp">No access</span></div>
       <div class="board-row"><span class="what">Analytics</span><span class="stamp">None</span></div>
-      <div class="board-row"><span class="what">Ads and tracking</span><span class="stamp">None</span></div>
+      <div class="board-row"><span class="what">Advertising</span><span class="stamp on">Google AdMob, settings screens only</span></div>
       <div class="board-row"><span class="what">Accounts or sign-up</span><span class="stamp">Not required</span></div>
     </div>
-    <p class="board-note">None of the data in this table is transmitted off the phone, shared with third parties or sold.</p>
+    <p class="board-note">Except for Google AdMob advertising, described below, none of the data in this table is transmitted off the phone, shared with third parties or sold.</p>
   </section>
 
   <section class="policy wrap">
@@ -428,7 +435,7 @@
       <li><strong>Notifications</strong> <code class="perm">POST_NOTIFICATIONS</code> — to show the alarm and the running service notification.</li>
     </ul>
     <p>The app also stores the alarms you create: a label, coordinates, a radius and the transport mode you picked.</p>
-    <p>NapStop does <strong>not</strong> access your contacts, camera, microphone, files, calendar, call history or advertising identifiers.</p>
+    <p>NapStop does <strong>not</strong> access your contacts, camera, microphone, files, calendar or call history. The only identifier that may be shared with a third party is the advertising identifier, used by Google AdMob and described in the "Advertising" section below.</p>
 
     <h2>Why it needs background location</h2>
     <p>NapStop's core function is to ring at the exact moment you reach a point you marked, usually while you are asleep on a train or a bus. Without background location access the app cannot do that, and it has no purpose left.</p>
@@ -442,12 +449,19 @@
     <p>The alarms you create are stored in a local database inside the app, on your device.</p>
 
     <h2>Third-party services</h2>
-    <p>NapStop relies on two Google components that are part of the Android ecosystem:</p>
+    <p>NapStop relies on several Google components that are part of the Android ecosystem:</p>
     <ul>
       <li><strong>Google Play Services (Geofencing and location)</strong> — detects arrival at the alarm area.</li>
       <li><strong>Google Maps SDK for Android</strong> — displays the map where you choose your point.</li>
+      <li><strong>Google AdMob</strong> — displays the ad banner on settings screens; it may use your advertising identifier if you give your consent. See the "Advertising" section below.</li>
     </ul>
     <p>These components belong to Google and their data handling is governed by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>, which is outside the scope of this app. NapStop sends Google no additional information about you beyond what these components need in order to work.</p>
+
+    <h2>Advertising</h2>
+    <p>NapStop shows an ad banner from <strong>Google AdMob</strong> only on settings screens: creating or editing an alarm, the list of saved alarms, and settings. The active-alarm screen while you sleep, the ringing-alarm screen and its stop button are always ad-free.</p>
+    <p>To show ads, Google AdMob may use your <strong>advertising identifier</strong> and technical device data (model, Android version, approximate IP address). If you are in the European Economic Area, the UK or Switzerland, NapStop will ask for your consent via Google's User Messaging Platform (UMP) form before loading the first ad; you can choose between personalized and non-personalized ads, or decline.</p>
+    <p>You can review your consent choice at any time from the app's settings, and manage your personalized ad preferences with Google at <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a>.</p>
+    <p>NapStop also offers a one-time purchase, <strong>NapStop Pro</strong>, which permanently turns off advertising throughout the app.</p>
 
     <h2>Data retention and deletion</h2>
     <p>Since nothing is collected off your device, there is no data held anywhere else. You can remove the local information at any time:</p>
@@ -470,7 +484,7 @@
     <h2>Contact</h2>
     <p>For any question about this privacy policy: <span class="fill">[YOUR EMAIL]</span></p>
 
-    <p class="updated">Last updated: 20 July 2026</p>
+    <p class="updated">Last updated: 25 July 2026</p>
   </section>
 </article>
 
@@ -485,13 +499,13 @@
       <div class="board-head"><span>Dada</span><span class="stamp">Estat</span></div>
       <div class="board-row"><span class="what">Ubicació</span><span class="stamp on">Només al teu dispositiu</span></div>
       <div class="board-row"><span class="what">Alarmes desades</span><span class="stamp on">Només al teu dispositiu</span></div>
-      <div class="board-row"><span class="what">Identificadors</span><span class="stamp">No es recullen</span></div>
+      <div class="board-row"><span class="what">Identificador de publicitat</span><span class="stamp on">Utilitzat per Google AdMob, amb el teu consentiment</span></div>
       <div class="board-row"><span class="what">Contactes, càmera, fitxers</span><span class="stamp">Sense accés</span></div>
       <div class="board-row"><span class="what">Analítica</span><span class="stamp">No n'hi ha</span></div>
-      <div class="board-row"><span class="what">Publicitat i seguiment</span><span class="stamp">No n'hi ha</span></div>
+      <div class="board-row"><span class="what">Publicitat</span><span class="stamp on">Google AdMob, només als ajustos</span></div>
       <div class="board-row"><span class="what">Comptes o registre</span><span class="stamp">No es demanen</span></div>
     </div>
-    <p class="board-note">Cap dada d'aquesta taula es transmet fora del telèfon, es comparteix amb tercers ni es ven.</p>
+    <p class="board-note">Tret de la publicitat de Google AdMob, descrita més avall, cap dada d'aquesta taula es transmet fora del telèfon, es comparteix amb tercers ni es ven.</p>
   </section>
 
   <section class="policy wrap">
@@ -507,7 +521,7 @@
       <li><strong>Notificacions</strong> <code class="perm">POST_NOTIFICATIONS</code> — per mostrar l'alarma i la notificació del servei actiu.</li>
     </ul>
     <p>A més, l'aplicació desa les alarmes que tu crees: una etiqueta, unes coordenades, un radi i el mitjà de transport triat.</p>
-    <p>NapStop <strong>no</strong> accedeix als teus contactes, càmera, micròfon, fitxers, calendari, historial de trucades ni identificadors publicitaris.</p>
+    <p>NapStop <strong>no</strong> accedeix als teus contactes, càmera, micròfon, fitxers, calendari ni historial de trucades. L'únic identificador que es pot compartir amb un tercer és l'identificador de publicitat, utilitzat per Google AdMob i descrit a la secció «Publicitat» més avall.</p>
 
     <h2>Per què necessita la ubicació en segon pla</h2>
     <p>La funció principal de NapStop és sonar en el moment exacte en què arribes a un punt que tu has marcat, normalment mentre dorms en un tren o un autobús. Sense accés a la ubicació en segon pla, l'aplicació no pot complir aquesta funció i deixa de tenir sentit.</p>
@@ -521,12 +535,19 @@
     <p>Les alarmes que crees es desen en una base de dades local dins de l'aplicació, al teu dispositiu.</p>
 
     <h2>Serveis de tercers</h2>
-    <p>NapStop es recolza en dos components de Google que formen part de l'ecosistema Android:</p>
+    <p>NapStop es recolza en diversos components de Google que formen part de l'ecosistema Android:</p>
     <ul>
       <li><strong>Google Play Services (Geofencing i ubicació)</strong> — detecta l'arribada a la zona d'alarma.</li>
       <li><strong>Google Maps SDK for Android</strong> — mostra el mapa on tries el punt.</li>
+      <li><strong>Google AdMob</strong> — mostra el bàner publicitari a les pantalles d'ajustos; pot utilitzar el teu identificador de publicitat si dones el teu consentiment. Vegeu la secció «Publicitat» més avall.</li>
     </ul>
     <p>Aquests components són de Google i el seu tractament de dades es regeix per la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacitat de Google</a>, aliena a aquesta aplicació. NapStop no envia a Google cap informació addicional sobre tu més enllà del que aquests components necessiten per funcionar.</p>
+
+    <h2>Publicitat</h2>
+    <p>NapStop mostra un bàner publicitari de <strong>Google AdMob</strong> únicament a les pantalles d'ajustos: crear o editar una alarma, la llista d'alarmes desades i els ajustos. La pantalla d'alarma activa mentre dorms, la pantalla d'alarma sonant i el seu botó d'aturar estan sempre lliures de publicitat.</p>
+    <p>Per mostrar anuncis, Google AdMob pot utilitzar el teu <strong>identificador de publicitat</strong> i dades tècniques del dispositiu (model, versió d'Android, adreça IP aproximada). Si et trobes a l'Espai Econòmic Europeu, el Regne Unit o Suïssa, NapStop et demanarà el consentiment mitjançant el formulari de la User Messaging Platform (UMP) de Google abans de carregar el primer anunci; podràs triar entre anuncis personalitzats o no personalitzats, o rebutjar-los.</p>
+    <p>Pots revisar la teva elecció de consentiment en qualsevol moment des dels ajustos de l'aplicació, i gestionar les teves preferències d'anuncis personalitzats amb Google des de <a href="https://adssettings.google.com" target="_blank" rel="noopener">adssettings.google.com</a>.</p>
+    <p>NapStop també ofereix una compra única, <strong>NapStop Pro</strong>, que desactiva la publicitat de manera permanent a tota l'aplicació.</p>
 
     <h2>Conservació i eliminació de dades</h2>
     <p>Com que no es recull res fora del teu dispositiu, no hi ha dades a conservar en cap altre lloc. Pots eliminar la informació local en qualsevol moment:</p>
@@ -549,7 +570,7 @@
     <h2>Contacte</h2>
     <p>Per a qualsevol dubte sobre aquesta política de privacitat: <span class="fill">[EL TEU CORREU]</span></p>
 
-    <p class="updated">Darrera actualització: 20 de juliol de 2026</p>
+    <p class="updated">Darrera actualització: 25 de juliol de 2026</p>
   </section>
 </article>
 
