@@ -252,16 +252,6 @@
     border-radius:3px;
   }
 
-  .fill{
-    background:rgba(255,112,67,.16);
-    color:var(--amber);
-    font-family:"IBM Plex Mono",monospace;
-    font-size:13px;
-    padding:1px 7px;
-    border-radius:3px;
-    white-space:nowrap;
-  }
-
   .callout{
     border-left:2px solid var(--amber);
     padding:2px 0 2px 18px;
@@ -339,7 +329,7 @@
   <section class="policy wrap">
 
     <h2>Quién es el responsable</h2>
-    <p>NapStop está desarrollada y mantenida por <span class="fill">[TU NOMBRE COMPLETO]</span>, desarrollador independiente con domicilio en España. Para cualquier cuestión relacionada con esta política puedes escribir a <span class="fill">[TU CORREO]</span>.</p>
+    <p>NapStop está desarrollada y mantenida por Jorge Agrisuelas Vallés, desarrollador independiente con domicilio en España. Para cualquier cuestión relacionada con esta política puedes escribir a jorgeva.dev@gmail.com.</p>
 
     <h2>Qué datos utiliza la aplicación</h2>
     <p>NapStop solicita los siguientes permisos, todos ellos necesarios para su única función:</p>
@@ -396,7 +386,7 @@
     <p>Si NapStop cambia su forma de tratar los datos, esta página se actualizará y se modificará la fecha que aparece abajo. Los cambios relevantes se anunciarán además en las notas de la versión en Google Play.</p>
 
     <h2>Contacto</h2>
-    <p>Para cualquier duda sobre esta política de privacidad: <span class="fill">[TU CORREO]</span></p>
+    <p>Para cualquier duda sobre esta política de privacidad: jorgeva.dev@gmail.com</p>
 
     <p class="updated">Última actualización: 25 de julio de 2026</p>
   </section>
@@ -425,7 +415,7 @@
   <section class="policy wrap">
 
     <h2>Who is responsible</h2>
-    <p>NapStop is developed and maintained by <span class="fill">[YOUR FULL NAME]</span>, an independent developer based in Spain. For anything related to this policy, write to <span class="fill">[YOUR EMAIL]</span>.</p>
+    <p>NapStop is developed and maintained by Jorge Agrisuelas Vallés, an independent developer based in Spain. For anything related to this policy, write to jorgeva.dev@gmail.com.</p>
 
     <h2>What data the app uses</h2>
     <p>NapStop requests the following permissions, all of them required for its single purpose:</p>
@@ -482,7 +472,7 @@
     <p>If NapStop changes the way it handles data, this page will be updated and the date below will change. Significant changes will also be announced in the Google Play release notes.</p>
 
     <h2>Contact</h2>
-    <p>For any question about this privacy policy: <span class="fill">[YOUR EMAIL]</span></p>
+    <p>For any question about this privacy policy: jorgeva.dev@gmail.com</p>
 
     <p class="updated">Last updated: 25 July 2026</p>
   </section>
@@ -511,7 +501,7 @@
   <section class="policy wrap">
 
     <h2>Qui n'és el responsable</h2>
-    <p>NapStop està desenvolupada i mantinguda per <span class="fill">[EL TEU NOM COMPLET]</span>, desenvolupador independent amb domicili a Espanya. Per a qualsevol qüestió relacionada amb aquesta política pots escriure a <span class="fill">[EL TEU CORREU]</span>.</p>
+    <p>NapStop està desenvolupada i mantinguda per Jorge Agrisuelas Vallés, desenvolupador independent amb domicili a Espanya. Per a qualsevol qüestió relacionada amb aquesta política pots escriure a jorgeva.dev@gmail.com.</p>
 
     <h2>Quines dades utilitza l'aplicació</h2>
     <p>NapStop sol·licita els permisos següents, tots necessaris per a la seva única funció:</p>
@@ -568,7 +558,7 @@
     <p>Si NapStop canvia la manera de tractar les dades, aquesta pàgina s'actualitzarà i es modificarà la data que apareix a sota. Els canvis rellevants s'anunciaran també a les notes de la versió a Google Play.</p>
 
     <h2>Contacte</h2>
-    <p>Per a qualsevol dubte sobre aquesta política de privacitat: <span class="fill">[EL TEU CORREU]</span></p>
+    <p>Per a qualsevol dubte sobre aquesta política de privacitat: jorgeva.dev@gmail.com</p>
 
     <p class="updated">Darrera actualització: 25 de juliol de 2026</p>
   </section>
