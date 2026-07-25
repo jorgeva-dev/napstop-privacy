@@ -329,7 +329,7 @@
   <section class="policy wrap">
 
     <h2>Quién es el responsable</h2>
-    <p>NapStop está desarrollada y mantenida por Jorge Agrisuelas Vallés, desarrollador independiente con domicilio en España. Para cualquier cuestión relacionada con esta política puedes escribir a jorgeva.dev@gmail.com.</p>
+    <p>NapStop está desarrollada y mantenida por jorgeva.dev, desarrollador independiente con domicilio en España. Para cualquier cuestión relacionada con esta política puedes escribir a jorgeva.dev@gmail.com.</p>
 
     <h2>Qué datos utiliza la aplicación</h2>
     <p>NapStop solicita los siguientes permisos, todos ellos necesarios para su única función:</p>
@@ -415,7 +415,7 @@
   <section class="policy wrap">
 
     <h2>Who is responsible</h2>
-    <p>NapStop is developed and maintained by Jorge Agrisuelas Vallés, an independent developer based in Spain. For anything related to this policy, write to jorgeva.dev@gmail.com.</p>
+    <p>NapStop is developed and maintained by jorgeva.dev, an independent developer based in Spain. For anything related to this policy, write to jorgeva.dev@gmail.com.</p>
 
     <h2>What data the app uses</h2>
     <p>NapStop requests the following permissions, all of them required for its single purpose:</p>
@@ -501,7 +501,7 @@
   <section class="policy wrap">
 
     <h2>Qui n'és el responsable</h2>
-    <p>NapStop està desenvolupada i mantinguda per Jorge Agrisuelas Vallés, desenvolupador independent amb domicili a Espanya. Per a qualsevol qüestió relacionada amb aquesta política pots escriure a jorgeva.dev@gmail.com.</p>
+    <p>NapStop està desenvolupada i mantinguda per jorgeva.dev, desenvolupador independent amb domicili a Espanya. Per a qualsevol qüestió relacionada amb aquesta política pots escriure a jorgeva.dev@gmail.com.</p>
 
     <h2>Quines dades utilitza l'aplicació</h2>
     <p>NapStop sol·licita els permisos següents, tots necessaris per a la seva única funció:</p>
