@@ -336,11 +336,11 @@ body{background:#fff;color:#000;}
 <h2>Qué datos utiliza la aplicación</h2>
 <p>NapStop solicita los siguientes permisos, todos ellos necesarios para su única función:</p>
 <ul>
-<li><strong>Ubicación precisa y aproximada</strong> <code class="perm">ACCESS_FINE_LOCATION</code> <code class="perm">ACCESS_COARSE_LOCATION</code> — para mostrar tu posición en el mapa y detectar cuándo llegas a la zona de alarma.</li>
+<li><strong>Ubicación precisa y aproximada</strong> <code class="perm">ACCESS_FINE_LOCATION</code> <code class="perm">ACCESS_COARSE_LOCATION</code> — para mostrar tu posición en el mapa y detectar cuándo cruzas la línea de aviso.</li>
 <li><strong>Ubicación en segundo plano</strong> <code class="perm">ACCESS_BACKGROUND_LOCATION</code> — para que la alarma funcione mientras duermes, con la pantalla apagada y la aplicación cerrada.</li>
 <li><strong>Notificaciones</strong> <code class="perm">POST_NOTIFICATIONS</code> — para mostrar la alarma y la notificación del servicio activo.</li>
 </ul>
-<p>Además, la aplicación guarda las alarmas que tú creas: una etiqueta, unas coordenadas, un radio y el medio de transporte elegido.</p>
+<p>Guarda la etiqueta y las coordenadas de la línea.</p>
 <p>NapStop <strong>no</strong> accede a tus contactos, cámara, micrófono, archivos, calendario ni historial de llamadas. Tampoco usa identificadores publicitarios.</p>
 
 <h2>Por qué necesita la ubicación en segundo plano</h2>
@@ -358,7 +358,7 @@ body{background:#fff;color:#000;}
 <p>NapStop se apoya en dos componentes de Google que forman parte del ecosistema Android:</p>
 <ul>
 <li><strong>Google Play Services (Geofencing y ubicación)</strong> — detecta la llegada a la zona de alarma.</li>
-<li><strong>Google Maps SDK for Android</strong> — muestra el mapa donde eliges el punto.</li>
+<li><strong>Google Maps SDK for Android</strong> — muestra el mapa donde trazas la línea.</li>
 </ul>
 <p>Estos componentes son de Google y su tratamiento de datos se rige por la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a>, ajena a esta aplicación. NapStop no envía a Google ninguna información adicional sobre ti más allá de lo que estos componentes requieren para funcionar.</p>
 
@@ -414,11 +414,11 @@ body{background:#fff;color:#000;}
 <h2>What data the app uses</h2>
 <p>NapStop requests the following permissions, all of them required for its single purpose:</p>
 <ul>
-<li><strong>Precise and approximate location</strong> <code class="perm">ACCESS_FINE_LOCATION</code> <code class="perm">ACCESS_COARSE_LOCATION</code> — to show your position on the map and detect when you reach the alarm area.</li>
+<li><strong>Precise and approximate location</strong> <code class="perm">ACCESS_FINE_LOCATION</code> <code class="perm">ACCESS_COARSE_LOCATION</code> — to show your position on the map and detect when you cross the alert line.</li>
 <li><strong>Background location</strong> <code class="perm">ACCESS_BACKGROUND_LOCATION</code> — so the alarm works while you sleep, with the screen off and the app closed.</li>
 <li><strong>Notifications</strong> <code class="perm">POST_NOTIFICATIONS</code> — to show the alarm and the running service notification.</li>
 </ul>
-<p>The app also stores the alarms you create: a label, coordinates, a radius and the transport mode you picked.</p>
+<p>Stores the label and the coordinates of the line.</p>
 <p>NapStop does <strong>not</strong> access your contacts, camera, microphone, files, calendar or call history. It does not use advertising identifiers either.</p>
 
 <h2>Why it needs background location</h2>
@@ -436,7 +436,7 @@ body{background:#fff;color:#000;}
 <p>NapStop relies on two Google components that are part of the Android ecosystem:</p>
 <ul>
 <li><strong>Google Play Services (Geofencing and location)</strong> — detects arrival at the alarm area.</li>
-<li><strong>Google Maps SDK for Android</strong> — displays the map where you choose your point.</li>
+<li><strong>Google Maps SDK for Android</strong> — displays the map where you draw your line.</li>
 </ul>
 <p>These components belong to Google and their data handling is governed by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>, which is outside the scope of this app. NapStop sends Google no additional information about you beyond what these components need in order to work.</p>
 
@@ -492,11 +492,11 @@ body{background:#fff;color:#000;}
 <h2>Quines dades utilitza l'aplicació</h2>
 <p>NapStop sol·licita els permisos següents, tots necessaris per a la seva única funció:</p>
 <ul>
-<li><strong>Ubicació precisa i aproximada</strong> <code class="perm">ACCESS_FINE_LOCATION</code> <code class="perm">ACCESS_COARSE_LOCATION</code> — per mostrar la teva posició al mapa i detectar quan arribes a la zona d'alarma.</li>
+<li><strong>Ubicació precisa i aproximada</strong> <code class="perm">ACCESS_FINE_LOCATION</code> <code class="perm">ACCESS_COARSE_LOCATION</code> — per mostrar la teva posició al mapa i detectar quan creues la línia d'avís.</li>
 <li><strong>Ubicació en segon pla</strong> <code class="perm">ACCESS_BACKGROUND_LOCATION</code> — perquè l'alarma funcioni mentre dorms, amb la pantalla apagada i l'aplicació tancada.</li>
 <li><strong>Notificacions</strong> <code class="perm">POST_NOTIFICATIONS</code> — per mostrar l'alarma i la notificació del servei actiu.</li>
 </ul>
-<p>A més, l'aplicació desa les alarmes que tu crees: una etiqueta, unes coordenades, un radi i el mitjà de transport triat.</p>
+<p>Desa l'etiqueta i les coordenades de la línia.</p>
 <p>NapStop <strong>no</strong> accedeix als teus contactes, càmera, micròfon, fitxers, calendari ni historial de trucades. Tampoc fa servir identificadors publicitaris.</p>
 
 <h2>Per què necessita la ubicació en segon pla</h2>
@@ -514,7 +514,7 @@ body{background:#fff;color:#000;}
 <p>NapStop es recolza en dos components de Google que formen part de l'ecosistema Android:</p>
 <ul>
 <li><strong>Google Play Services (Geofencing i ubicació)</strong> — detecta l'arribada a la zona d'alarma.</li>
-<li><strong>Google Maps SDK for Android</strong> — mostra el mapa on tries el punt.</li>
+<li><strong>Google Maps SDK for Android</strong> — mostra el mapa on traces la línia.</li>
 </ul>
 <p>Aquests components són de Google i el seu tractament de dades es regeix per la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacitat de Google</a>, aliena a aquesta aplicació. NapStop no envia a Google cap informació addicional sobre tu més enllà del que aquests components necessiten per funcionar.</p>
 
@@ -570,11 +570,11 @@ body{background:#fff;color:#000;}
 <h2>Quais dados a aplicação utiliza</h2>
 <p>O NapStop solicita as seguintes permissões, todas necessárias para a sua única função:</p>
 <ul>
-<li><strong>Localização precisa e aproximada</strong> <code class="perm">ACCESS_FINE_LOCATION</code> <code class="perm">ACCESS_COARSE_LOCATION</code> — para mostrar a sua posição no mapa e detectar quando você chega à área do alarme.</li>
+<li><strong>Localização precisa e aproximada</strong> <code class="perm">ACCESS_FINE_LOCATION</code> <code class="perm">ACCESS_COARSE_LOCATION</code> — para mostrar a sua posição no mapa e detectar quando você cruza a linha de aviso.</li>
 <li><strong>Localização em segundo plano</strong> <code class="perm">ACCESS_BACKGROUND_LOCATION</code> — para que o alarme funcione enquanto você dorme, com a tela apagada e a aplicação fechada.</li>
 <li><strong>Notificações</strong> <code class="perm">POST_NOTIFICATIONS</code> — para mostrar o alarme e a notificação do serviço ativo.</li>
 </ul>
-<p>Além disso, a aplicação guarda os alarmes que você cria: uma etiqueta, coordenadas, um raio e o meio de transporte escolhido.</p>
+<p>Guarda a etiqueta e as coordenadas da linha.</p>
 <p>O NapStop <strong>não</strong> acessa os seus contatos, câmera, microfone, arquivos, calendário ou histórico de chamadas. Também não usa identificadores de publicidade.</p>
 
 <h2>Por que precisa da localização em segundo plano</h2>
@@ -592,7 +592,7 @@ body{background:#fff;color:#000;}
 <p>O NapStop depende de dois componentes do Google que fazem parte do ecossistema Android:</p>
 <ul>
 <li><strong>Google Play Services (Geofencing e localização)</strong> — detecta a chegada à área do alarme.</li>
-<li><strong>Google Maps SDK for Android</strong> — mostra o mapa onde você escolhe o ponto.</li>
+<li><strong>Google Maps SDK for Android</strong> — mostra o mapa onde você traça a linha.</li>
 </ul>
 <p>Esses componentes são do Google e o seu tratamento de dados é regido pela <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a>, externa a esta aplicação. O NapStop não envia ao Google nenhuma informação adicional sobre você além do que esses componentes precisam para funcionar.</p>
 
@@ -648,11 +648,11 @@ body{background:#fff;color:#000;}
 <h2>Welche Daten die App verwendet</h2>
 <p>NapStop fordert folgende Berechtigungen an, die alle für seine einzige Funktion notwendig sind:</p>
 <ul>
-<li><strong>Genauer und ungefährer Standort</strong> <code class="perm">ACCESS_FINE_LOCATION</code> <code class="perm">ACCESS_COARSE_LOCATION</code> — um deine Position auf der Karte anzuzeigen und zu erkennen, wann du den Alarmbereich erreichst.</li>
+<li><strong>Genauer und ungefährer Standort</strong> <code class="perm">ACCESS_FINE_LOCATION</code> <code class="perm">ACCESS_COARSE_LOCATION</code> — um deine Position auf der Karte anzuzeigen und zu erkennen, wann du die Alarmlinie überquerst.</li>
 <li><strong>Standort im Hintergrund</strong> <code class="perm">ACCESS_BACKGROUND_LOCATION</code> — damit der Alarm funktioniert, während du schläfst, mit ausgeschaltetem Bildschirm und geschlossener App.</li>
 <li><strong>Benachrichtigungen</strong> <code class="perm">POST_NOTIFICATIONS</code> — um den Alarm und die Benachrichtigung des aktiven Dienstes anzuzeigen.</li>
 </ul>
-<p>Außerdem speichert die App die von dir erstellten Alarme: eine Bezeichnung, Koordinaten, einen Radius und das gewählte Verkehrsmittel.</p>
+<p>Speichert die Bezeichnung und die Koordinaten der Linie.</p>
 <p>NapStop greift <strong>nicht</strong> auf deine Kontakte, Kamera, dein Mikrofon, deine Dateien, deinen Kalender oder dein Anrufprotokoll zu. Es verwendet auch keine Werbekennungen.</p>
 
 <h2>Warum der Standort im Hintergrund benötigt wird</h2>
@@ -670,7 +670,7 @@ body{background:#fff;color:#000;}
 <p>NapStop stützt sich auf zwei Google-Komponenten, die Teil des Android-Ökosystems sind:</p>
 <ul>
 <li><strong>Google Play Services (Geofencing und Standort)</strong> — erkennt die Ankunft im Alarmbereich.</li>
-<li><strong>Google Maps SDK for Android</strong> — zeigt die Karte an, auf der du den Punkt auswählst.</li>
+<li><strong>Google Maps SDK for Android</strong> — zeigt die Karte an, auf der du die Linie zeichnest.</li>
 </ul>
 <p>Diese Komponenten gehören Google, und ihre Datenverarbeitung unterliegt der <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Datenschutzerklärung von Google</a>, die außerhalb dieser App liegt. NapStop sendet Google keine zusätzlichen Informationen über dich, die über das hinausgehen, was diese Komponenten zum Funktionieren benötigen.</p>
 
@@ -726,11 +726,11 @@ body{background:#fff;color:#000;}
 <h2>Quelles données l'application utilise</h2>
 <p>NapStop demande les autorisations suivantes, toutes nécessaires à sa fonction unique :</p>
 <ul>
-<li><strong>Localisation précise et approximative</strong> <code class="perm">ACCESS_FINE_LOCATION</code> <code class="perm">ACCESS_COARSE_LOCATION</code> — pour afficher votre position sur la carte et détecter quand vous atteignez la zone d'alarme.</li>
+<li><strong>Localisation précise et approximative</strong> <code class="perm">ACCESS_FINE_LOCATION</code> <code class="perm">ACCESS_COARSE_LOCATION</code> — pour afficher votre position sur la carte et détecter quand vous franchissez la ligne d'alerte.</li>
 <li><strong>Localisation en arrière-plan</strong> <code class="perm">ACCESS_BACKGROUND_LOCATION</code> — pour que l'alarme fonctionne pendant votre sommeil, écran éteint et application fermée.</li>
 <li><strong>Notifications</strong> <code class="perm">POST_NOTIFICATIONS</code> — pour afficher l'alarme et la notification du service actif.</li>
 </ul>
-<p>L'application enregistre également les alarmes que vous créez : un libellé, des coordonnées, un rayon et le moyen de transport choisi.</p>
+<p>Enregistre l'étiquette et les coordonnées de la ligne.</p>
 <p>NapStop <strong>n'accède</strong> ni à vos contacts, ni à votre appareil photo, votre microphone, vos fichiers, votre calendrier ou votre historique d'appels. Elle n'utilise pas non plus d'identifiants publicitaires.</p>
 
 <h2>Pourquoi la localisation en arrière-plan est nécessaire</h2>
@@ -748,7 +748,7 @@ body{background:#fff;color:#000;}
 <p>NapStop s'appuie sur deux composants Google faisant partie de l'écosystème Android :</p>
 <ul>
 <li><strong>Google Play Services (Geofencing et localisation)</strong> — détecte l'arrivée dans la zone d'alarme.</li>
-<li><strong>Google Maps SDK for Android</strong> — affiche la carte où vous choisissez le point.</li>
+<li><strong>Google Maps SDK for Android</strong> — affiche la carte où vous tracez la ligne.</li>
 </ul>
 <p>Ces composants appartiennent à Google et leur traitement des données est régi par la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Politique de confidentialité de Google</a>, extérieure à cette application. NapStop n'envoie à Google aucune information supplémentaire vous concernant au-delà de ce dont ces composants ont besoin pour fonctionner.</p>
 
@@ -804,11 +804,11 @@ body{background:#fff;color:#000;}
 <h2>Quali dati utilizza l'app</h2>
 <p>NapStop richiede i seguenti permessi, tutti necessari per la sua unica funzione:</p>
 <ul>
-<li><strong>Posizione precisa e approssimativa</strong> <code class="perm">ACCESS_FINE_LOCATION</code> <code class="perm">ACCESS_COARSE_LOCATION</code> — per mostrare la tua posizione sulla mappa e rilevare quando raggiungi l'area dell'allarme.</li>
+<li><strong>Posizione precisa e approssimativa</strong> <code class="perm">ACCESS_FINE_LOCATION</code> <code class="perm">ACCESS_COARSE_LOCATION</code> — per mostrare la tua posizione sulla mappa e rilevare quando attraversi la linea di avviso.</li>
 <li><strong>Posizione in background</strong> <code class="perm">ACCESS_BACKGROUND_LOCATION</code> — perché l'allarme funzioni mentre dormi, con lo schermo spento e l'app chiusa.</li>
 <li><strong>Notifiche</strong> <code class="perm">POST_NOTIFICATIONS</code> — per mostrare l'allarme e la notifica del servizio attivo.</li>
 </ul>
-<p>Inoltre, l'app salva gli allarmi che crei: un'etichetta, delle coordinate, un raggio e il mezzo di trasporto scelto.</p>
+<p>Salva l'etichetta e le coordinate della linea.</p>
 <p>NapStop <strong>non</strong> accede ai tuoi contatti, fotocamera, microfono, file, calendario o registro chiamate. Non utilizza nemmeno identificativi pubblicitari.</p>
 
 <h2>Perché serve la posizione in background</h2>
@@ -826,7 +826,7 @@ body{background:#fff;color:#000;}
 <p>NapStop si basa su due componenti Google che fanno parte dell'ecosistema Android:</p>
 <ul>
 <li><strong>Google Play Services (Geofencing e posizione)</strong> — rileva l'arrivo nell'area dell'allarme.</li>
-<li><strong>Google Maps SDK per Android</strong> — mostra la mappa in cui scegli il punto.</li>
+<li><strong>Google Maps SDK per Android</strong> — mostra la mappa in cui tracci la linea.</li>
 </ul>
 <p>Questi componenti appartengono a Google e il loro trattamento dei dati è regolato dalla <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Informativa sulla privacy di Google</a>, esterna a questa app. NapStop non invia a Google alcuna informazione aggiuntiva su di te oltre a quanto questi componenti necessitano per funzionare.</p>
 
